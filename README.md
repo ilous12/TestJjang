@@ -1,23 +1,11 @@
 TRTC -T전화 글로벌을 위한 mVoIP 프레임워크
 ======================================
 
-> 외국어의 한글 표기 체계가 제대로 서려면 일반인이 외국어를 한글로
-> 표기하고 싶을 때 바로바로 쉽게 용례를 찾을 수 있어야 한다. 정기적으로
-> 회의를 열어 용례를 정하는 것으로는 한계가 있다. 외래어 표기 심의 방식이
-> 자동화되어 한글로 표기하고 싶은 외국어를 입력하자마자 한글 표기가
-> 나와야 한다. 이미 용례가 정해진 것은 그것을 따르고 용례에 없는 것이라도
-> 각 언어의 표기 규칙에 따라 권장 표기를 표시해야 한다. 프로그래머들과
-> 언어학자들이 손잡고 연구한다면 이게 공상으로만 그치지 않을 것이다.
->
-> by Brian Jongseong Park (<http://iceager.egloos.com/2610028>)
+> T전화 어플리케이션내에 mVoIP 솔루션 내재화를 위해 생성된 프로젝트 입니다.
+> WebRTC 기반의 미디어 프레임워크와, 단순화된 Signaling, NAT Traversal을 통해,
+> 기본보다 빠른, 호접속 시간, 고품질의 화상통화 제공을 목표로 하고 있습니다.
 
-Hangulize는 외래어를 한글로 자동 변환해주는 Python 모듈입니다.
-
-    >>> from hangulize import hangulize
-    >>> print hangulize('Guido van Rossum', 'nld')
-    히도 판로쉼
-
-변환 가능한 언어들
+주요기능
 ------------------
 
 1. 라틴어(`lat`)
@@ -143,12 +131,6 @@ Hangulize는 외래어를 한글로 자동 변환해주는 Python 모듈입니�
     -> '     '
     우슈코
 
-커뮤니티
---------
-
-[메일링리스트][]를 운영하고 있습니다. Hangulize 개발자들이 주고받는 이야기를
-보고싶거나 Hangulize에 제안할 좋은 아이디어가 있다면 이쪽으로 오시기 바랍니다.
-
 contributors
 ------
 
@@ -159,25 +141,20 @@ contributors
 - 추세일 <<seil.chu@sk.com>> - Developer
 
 라이선스
---------
+-------
 
-Hangulize에는 BSD 라이선스가 적용되어있습니다. 따라서 소스코드를 사용할
-경우 라이선스 내용을 준수해주십시오. 라이선스 전문은 `LICENSE` 파일에서
-확인하실 수 있습니다.
-
- [1]: http://www.korean.go.kr/front/page/pageView.do?page_id=P000105&mn_id=97
+WebRTC에서 포크된 프로젝트 이므로, 관련 라이센스는 아래의 참조를 따릅니다.
+ [1]: https://webrtc.org/license/software/
 
 링크
 ----
 
 - [웹사이트][]
-- [메일링리스트][]
-- [iOS 애플리케이션][] by Jeong YunWon
-- [꽁치][](Hangulize IRC 봇) by Adrian Jung
+- [WebRTC][]
+- [QUIC][]QUIC Protocol
 - [읽어봐!][](또 다른 외래서 전사 프로그램) by 마늘아빠
 
- [웹사이트]: http://www.hangulize.org/
- [메일링리스트]: http://groups.google.com/group/hangulize
- [iOS 애플리케이션]: https://github.com/youknowone/hangulize-ios
- [꽁치]: https://github.com/kkung/kkongchi
- [읽어봐!]: http://socoop.net/ilgoba
+ [웹사이트]: https://git.prod.sktelecom.com/developer/trtc
+ [WebRTC]: https://webrtc.org
+ [QUIC]: https://www.chromium.org/quic
+ 
