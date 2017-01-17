@@ -13,18 +13,12 @@ TRTC -T전화 글로벌을 위한 mVoIP 프레임워크
 iOS BUILD
 ------
 
-국립국어원 사이트에 있는 [외래어 표기법][1]을 토대로 작성한 테스트수트를
-작동시킵니다:
-
     $ gn gen out/Release-universal -args='target_os="ios" target_cpu="x64" additional_target_cpus=["arm", "arm64", "x86"] is_component_build=false is_debug=false ios_enable_code_signing=false' -ide=xcode
     $ ninja -C out/Release-universal/ rtc_sdk_framework_objc -t clean
     $ ninja -C out/Release-universal/ rtc_sdk_framework_objc
 
 Android BUILD
 ------
-
-국립국어원 사이트에 있는 [외래어 표기법][1]을 토대로 작성한 테스트수트를
-작동시킵니다:
 
     $ gn gen out/debug/android/arm --args='target_os="android" target_cpu="arm" rtc_support_quic=true is_component_build=false rtc_include_tests=false'
     $ ninja -C out/debug/android/arm -t clean
@@ -43,7 +37,8 @@ contributors
 -------
 
 WebRTC에서 포크된 프로젝트 이므로, 관련 라이센스는 아래의 참조를 따릅니다.
- [1]: https://webrtc.org/license/software
+- [링크][] 링크
+ [링크]: https://webrtc.org/license/software
 
 링크
 ----
