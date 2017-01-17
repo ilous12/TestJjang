@@ -37,7 +37,7 @@ contributors
 -------
 
 WebRTC에서 포크된 프로젝트 이므로, 관련 라이센스는 아래의 참조를 따릅니다.
-- [링크][] 링크
+- [링크][]
  [링크]: https://webrtc.org/license/software
 
 링크
